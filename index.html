@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/41e53ebb29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/41e53ebb29.css" crossorigin="anonymous">
+    <title>Encriptador | Marcos</title>
+</head>
+    
+    <body>
+        <header>
+            <img class="logo-principal" src="imagenes/logo.png" alt="logo de la marca">
+        </header>
+        <main>
+            <section>
+                <textarea class="text-area"  cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                <div>
+                    <h6 class="informacion"> Solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="botones">
+                    <button class="boton-encriptar" onclick="btnEncriptar()">Encriptar!</button>
+                    <button class="boton-desencriptar" onclick="btnDesencriptar()">Desencriptar!</button>
+                </div>
+            </section>
+            <section class="segunda-seccion">
+                <textarea class="mensaje" cols="20" rows="10"></textarea>
+                <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+        <script src="script.js"></script>
+
+        <footer>
+            <ul class="social-links">
+                <li class="facebook">
+                    <span class="icon"><i class="fa fa-facebook"><a href="https://www.facebook.com/MarcosCAviles" target="_blank" class="titulo">Facebook</a></i></span>
+                </li>
+                <li class="github">
+                    <span class="icon"><i class="fa fa-github"><a href="https://github.com/marcoscarlos9" class="titulo" target="_blank">GitHub</a></i></span>
+                </li>
+                <li class="linkedin">
+                    <span class="icon"><i class="fa fa-linkedin"><a href="https://www.linkedin.com/in/marcos-carlos-isf/" target="_blank" class="titulo" >LinkedIn</a></i></span>
+                </li>
+                <li class="instagram">
+                    <span class="icon"><i class="fa fa-instagram"><a href="https://www.instagram.com/marcoscaviles/" class="titulo" target="_blank">Instagram</a></i></span>
+                </li>
+            </ul>
+                      
+        </footer>
+        
+
+    </body>
+    
+
+</html>
+
